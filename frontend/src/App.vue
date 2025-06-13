@@ -1,11 +1,13 @@
 <script setup>
 import TaskManager from './components/TaskManager.vue'
+import UserManagement from './components/UserManagement.vue'
 </script>
 
 <template>
   <div class="container">
-    <h1>Gestión de Tareas</h1>
+    <h1>Gestión de la Aplicación</h1>
     <TaskManager />
+    <UserManagement />
   </div>
 </template>
 
